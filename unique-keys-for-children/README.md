@@ -1,3 +1,6 @@
+### This is the theory from official site.
+
+
 Keys help React identify which items have changed, are added, or are removed.
 
 The best way to pick a key is to use a string that uniquely identifies a list item among its **siblings**. (The key only has to be unique among its siblings, not globally unique.)
@@ -43,3 +46,7 @@ Only update the attribute.
 ```
 
 If don't have Keys, React will mutate every child instead of realizing it can keep the <li>Duke</li> and <li>Villanova</li> subtrees intact. This inefficiency can be a problem.
+
+### Real Experiment
+
+Test this example with React Perf Tool.
