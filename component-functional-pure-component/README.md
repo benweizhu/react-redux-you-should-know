@@ -2,10 +2,11 @@ https://stackoverflow.com/questions/40703675/react-functional-stateless-componen
 
 Extending from React.PureComponent or from React.Component with a custom shouldComponentUpdate method have performance implications. Using stateless functional components is an "architectural" choice and doesn't have any performance benefits out of the box.
 
-**code**
+**Example**
+
 In the exmaple, React.Component(no customize for shouldComponentUpdate) and Functional Component will always call render();
 
-React.PureComponent will do a shallowCompare.
+But React.PureComponent will do a shallowCompare.
 
 https://facebook.github.io/react/docs/shallow-compare.html
 
