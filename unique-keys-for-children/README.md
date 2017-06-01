@@ -32,7 +32,7 @@ Only update the attribute.
 
 3.Component Elements Of The Same Type
 
-```
+```HTML
 <ul>
   <li>Duke</li>
   <li>Villanova</li>
