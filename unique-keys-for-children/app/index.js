@@ -18,7 +18,7 @@ class HasKeysComponent extends React.PureComponent {
   render() {
     return <div>
       {
-        this.props.items.map((item, index) => (
+        this.props.items.map((item) => (
           <li key={item}>{item}</li>
         ))
       }
