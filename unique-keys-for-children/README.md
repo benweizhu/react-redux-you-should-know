@@ -45,7 +45,7 @@ Only update the attribute.
 </ul>
 ```
 
-If don't have Keys, React will mutate every child instead of realizing it can keep the <li>Duke</li> and <li>Villanova</li> subtrees intact. This inefficiency can be a problem.
+If don't have Keys, React will mutate every child instead of realizing it can keep the `<li>Duke</li>` and `<li>Villanova</li> `subtrees intact. This inefficiency can be a problem.
 
 ### Real Experiment
 
