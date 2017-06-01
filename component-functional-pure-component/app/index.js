@@ -9,6 +9,20 @@ class ReactComponent extends React.Component {
 
 const FunctionalComponent = (props) => (<div>{`I am Functional ${new Date().toLocaleString()}`}</div>);
 
+class CustomizedReactComponent extends React.Component {
+
+  shouldComponentUpdate(nextProps, nextState) {
+    if (this.props.message !== nextProps.message) {
+      return true;
+    }
+    return false;
+  }
+
+  render() {
+    return <div>{`I am customized React.Component ${this.props.message} ${new Date().toLocaleString()}`}</div>;
+  }
+}
+
 class ReactPureComponent extends React.PureComponent {
   render() {
     return <div>{`I am React.PureComponent ${new Date().toLocaleString()}`}</div>;
@@ -20,7 +34,7 @@ class ParentComponent extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      message: ''
+      message: 'default message'
     }
   }
 
@@ -35,6 +49,8 @@ class ParentComponent extends React.Component {
         <input type="text" value={this.state.message} onChange={this.handleMessageChange} />
         <ReactComponent />
         <FunctionalComponent />
+        <CustomizedReactComponent message="never change message"/>
+        <CustomizedReactComponent message={this.state.message}/>
         <ReactPureComponent />
       </div>
     );
