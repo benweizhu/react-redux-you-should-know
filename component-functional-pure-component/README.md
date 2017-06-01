@@ -6,3 +6,10 @@ React.PureComponent will do a shallowCompare.
 
 shallowCompare performs a shallow equality check on the current props and nextProps objects as well as the current state and nextState objects.
 It does this by iterating on the keys of the objects being compared and returning true when the values of a key in each object are not strictly equal.
+
+
+https://facebook.github.io/react/docs/shallow-compare.html
+
+https://stackoverflow.com/questions/40703675/react-functional-stateless-component-purecomponent-component-what-are-the-dif
+
+https://facebook.github.io/react/docs/optimizing-performance.html
