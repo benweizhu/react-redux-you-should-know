@@ -51,5 +51,8 @@ If don't have Keys, React will mutate every child instead of realizing it can ke
 
 Test this example with React Perf Tool.
 
+Just add a few
 ![image](https://cloud.githubusercontent.com/assets/5471228/26673026/ffb94f7a-46ed-11e7-9003-78eb6824a218.png)
 
+Add more
+![image](https://cloud.githubusercontent.com/assets/5471228/26673917/24c2b27c-46f1-11e7-936e-440d5da66dfb.png)
