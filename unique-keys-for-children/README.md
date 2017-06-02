@@ -47,6 +47,8 @@ Only update the attribute.
 
 If don't have Keys, React will mutate every child instead of realizing it can keep the `<li>Duke</li>` and `<li>Villanova</li> `subtrees intact. This inefficiency can be a problem.
 
+https://github.com/facebook/react/issues/9826
+
 ### Real Experiment
 
 Test this example with React Perf Tool.
