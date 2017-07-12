@@ -49,6 +49,10 @@ If don't have Keys, React will mutate every child instead of realizing it can ke
 
 https://github.com/facebook/react/issues/9826
 
+## Don't use index of array as keys;
+
+https://github.com/facebook/react/issues/10102
+
 ### Real Experiment
 
 Test this example with React Perf Tool.
