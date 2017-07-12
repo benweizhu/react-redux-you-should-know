@@ -52,6 +52,7 @@ https://github.com/facebook/react/issues/9826
 ## Don't use index of array as keys;
 
 https://github.com/facebook/react/issues/10102
+https://github.com/facebook/react/issues/8410
 
 ### Real Experiment
 
