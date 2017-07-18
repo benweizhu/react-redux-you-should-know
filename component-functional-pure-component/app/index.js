@@ -90,6 +90,7 @@ class ParentComponent extends React.Component {
         <CustomizedReactComponent message="never change message" />
         <CustomizedReactComponent message={this.state.message} />
         <ReactPureComponent />
+        <br/><br/><br/><br/>
         <WordAdderJustDoShallowCompare newWord={this.state.message} />
       </div>
     );
